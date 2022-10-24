@@ -1,12 +1,122 @@
-body {
-    background: rgb(3,0,4);
-    background: linear-gradient(154deg, rgba(3,0,4,1) 0%, rgba(25,4,41,1) 93%);
+body, ul{
+    background: rgb(100, 65, 165); 
+    margin: 0px;
+    padding: 0px;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+ a:hover {
+    background: rgba(0, 0, 0, .05);
+}
+
+#logo {
+    width: 100px;
+    height: 120px;
+    font-weight: bold;
+}
+
+#header {
+    box-sizing: border-box;
+    height: 120px;
+    padding: 1rem;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(100, 65, 165); 
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+
+#menu a {
+    display: block;
+    padding: .5rem;
+}
+
+#botao-mobile {
+    display: none;
+}
+
+@media (max-width:600px) {
+
+    #menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 120px;
+        right: 0px;
+        
+        height: 0;
+        transition: .6s;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #nav.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #menu a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, .5);
+    }
+
+    #botao-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+   
+    #hamburguer {
+        border-top: 2px solid;
+        width: 20px;
+        display: block;
+ }
+
+   #hamburguer::after, #hamburguer::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: .3s;
+    position: relative;
+   }
+
+   #nav.active #hamburguer {
+    border-top-color: transparent;
+   }
+
+   #nav.active #hamburguer::before{
+    transform: rotate(135deg);
+   }
+
+   #nav.active #hamburguer::after{
+    transform: rotate(-135deg);
+    top: -7px;
 
 
 
+   }
 
-.cabecalho__container {
-    width: 1200px;
+
+
 }
