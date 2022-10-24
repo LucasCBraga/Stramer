@@ -1,3 +1,12 @@
+body {
+    background: rgb(3,0,4);
+    background: linear-gradient(154deg, rgba(3,0,4,1) 0%, rgba(25,4,41,1) 93%);
+}
+
+
+
+
+
 .cabecalho__container {
     width: 1200px;
 }
