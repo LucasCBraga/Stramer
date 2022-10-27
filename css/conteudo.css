@@ -5,6 +5,11 @@
     
 }
 
+.img__logo-1 {
+    width: 65%;
+    padding: 1rem;
+}
+
 .img__logo {
     padding: 1rem 1rem;
     width: 70%;
@@ -35,6 +40,11 @@
     width: 45%;
  }
 
+ .img__logo-1 {
+    width: 35%;
+    padding-top: 1.5rem;
+ }
+
  .video {
     width: 40%;
  }
@@ -48,6 +58,12 @@
         width: 30%;
         padding: 2rem;
     }
+
+    .img__logo-1 {
+        width: 25%;
+        padding-top: 2rem;
+    }
+
     .img__game {
         width: 70%;
         padding: 2rem;
