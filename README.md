@@ -16,10 +16,10 @@ Tecnologias usadas:
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [x] Criação Menu hamburguer para mobile
-- [x] Criação da parte de conteudo da pagina
-- [ ] Adição de videos 
-- [ ] Deixar Responsivo
-- [ ] Detalhes Finais
+- [x] Criação da parte de conteudo da pagina 
+- [x] Deixar Responsivo
+- [ ] Detalhes Finais  
+
 
 
 
