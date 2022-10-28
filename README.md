@@ -18,7 +18,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Criação Menu hamburguer para mobile
 - [x] Criação da parte de conteudo da pagina 
 - [x] Deixar Responsivo
-- [ ] Detalhes Finais  
+- [x] Detalhes Finais  
 
 
 
