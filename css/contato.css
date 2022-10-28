@@ -39,6 +39,7 @@
     .contato {
         display: flex;
         justify-content: center;
+        width: 100%;
     }
 
     .contato__titulo {
