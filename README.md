@@ -12,9 +12,9 @@ Site para portfolio de um streamer
 Tecnologias usadas:
 
 
-HTML <br/>
-CSS <br/>
-JavaScript
+- HTML <br/>
+- CSS <br/>
+- JavaScript
 
 ### Etapas do Projeto    
 
